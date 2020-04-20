@@ -1,7 +1,7 @@
 {
-  "name": "panzoom",
+  "name": "@andi23rosca/panzoom",
   "version": "9.2.4",
-  "description": "Extensible, mobile friendly pan and zoom framework (supports DOM and SVG).",
+  "description": "Fork of panzoom",
   "main": "index.js",
   "scripts": {
     "test": "tap test/*.js",
@@ -14,11 +14,12 @@
     "pan",
     "zoom"
   ],
-  "author": "Andrei Kashcha",
+  "private": false,
+  "author": "Andi Rosca",
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "https://github.com/anvaka/panzoom"
+    "url": "https://github.com/andi23rosca/panzoom.git"
   },
   "dependencies": {
     "amator": "^1.1.0",
